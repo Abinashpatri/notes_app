@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+.note-container{
+    height: 100%;
+
+}
+.note-container h2{
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: aliceblue;
+    font-family: 'Dancing Script', cursive;
+}
+.note-container_notes{
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-y: scroll;
+
+}
